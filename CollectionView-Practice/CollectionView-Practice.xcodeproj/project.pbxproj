@@ -15,6 +15,7 @@
 		3E9CDD7323CA19E100D7A331 /* MTACardImageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3E9CDD7223CA19E100D7A331 /* MTACardImageCell.xib */; };
 		3E9CDD7523CA1C4100D7A331 /* CardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E9CDD7423CA1C4100D7A331 /* CardViewController.swift */; };
 		3E9CDD7823CA220C00D7A331 /* MTACardImageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E9CDD7723CA220C00D7A331 /* MTACardImageCell.swift */; };
+		3E9CDD7A23CA71C700D7A331 /* CardData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E9CDD7923CA71C700D7A331 /* CardData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		3E9CDD7223CA19E100D7A331 /* MTACardImageCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MTACardImageCell.xib; sourceTree = "<group>"; };
 		3E9CDD7423CA1C4100D7A331 /* CardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardViewController.swift; sourceTree = "<group>"; };
 		3E9CDD7723CA220C00D7A331 /* MTACardImageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MTACardImageCell.swift; sourceTree = "<group>"; };
+		3E9CDD7923CA71C700D7A331 /* CardData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +66,7 @@
 				3E9CDD5E23C934DA00D7A331 /* SceneDelegate.swift */,
 				3E9CDD6223C934DA00D7A331 /* Main.storyboard */,
 				3E9CDD7423CA1C4100D7A331 /* CardViewController.swift */,
+				3E9CDD7923CA71C700D7A331 /* CardData.swift */,
 				3E9CDD7623CA21D800D7A331 /* Views */,
 				3E9CDD6523C934DE00D7A331 /* Assets.xcassets */,
 				3E9CDD6723C934DE00D7A331 /* LaunchScreen.storyboard */,
@@ -153,6 +156,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3E9CDD7A23CA71C700D7A331 /* CardData.swift in Sources */,
 				3E9CDD7523CA1C4100D7A331 /* CardViewController.swift in Sources */,
 				3E9CDD7823CA220C00D7A331 /* MTACardImageCell.swift in Sources */,
 				3E9CDD5D23C934DA00D7A331 /* AppDelegate.swift in Sources */,

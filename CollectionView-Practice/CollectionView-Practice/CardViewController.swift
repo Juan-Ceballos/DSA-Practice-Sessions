@@ -9,14 +9,39 @@
 import UIKit
 
 class CardViewController: UIViewController {
-
+    
     @IBOutlet weak var collectionView: UICollectionView!
+    @IBOutlet weak var cardSlot: UIImageView!
+    @IBOutlet var cardSwipeRecognizer: UISwipeGestureRecognizer!
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        cardSwipeRecognizer?.direction = .down
         collectionView.register(UINib(nibName: "MTACardImageCell", bundle: nil), forCellWithReuseIdentifier: "cardCell")
         collectionView.dataSource = self
         collectionView.delegate = self
+    }
+    
+    @IBAction func cardSwiped(_ sender: UISwipeGestureRecognizer) {
+        if cardSwipeRecognizer.state == .ended {
+            UIView.animate(withDuration: 0.1, animations: {
+                self.collectionView.frame.origin.y += 420
+            }, completion: nil)
+            UIView.animate(withDuration: 0.5, animations: {
+                self.collectionView.frame.origin.y -= 420
+            }, completion: nil)
+        }
+        
+    }
+    
+    @IBAction func testButtonPressed(_ sender: UIButton) {
+        UIView.animate(withDuration: 0.1, animations: {
+            self.collectionView.frame.origin.y += 420
+        }, completion: nil)
+        UIView.animate(withDuration: 0.5, animations: {
+            self.collectionView.frame.origin.y -= 420
+        }, completion: nil)
+        
     }
 }
 
@@ -36,12 +61,11 @@ extension CardViewController: UICollectionViewDataSource    {
         return cell
     }
     
-    
 }
 
 extension CardViewController: UICollectionViewDelegateFlowLayout  {
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
-        let cardCellSize = CGSize(width: 400, height: 400)
+        let cardCellSize = CGSize(width: 238, height: 352)
         return cardCellSize
     }
 }

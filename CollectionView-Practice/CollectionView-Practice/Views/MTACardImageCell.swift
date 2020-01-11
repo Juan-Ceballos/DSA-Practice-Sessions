@@ -9,9 +9,10 @@
 import UIKit
 
 class MTACardImageCell: UICollectionViewCell  {
-    @IBOutlet weak var cardImage: UIImageView!
+    @IBOutlet weak var metroCardImage: UIImageView!
     
     func configureCell()    {
-        cardImage.image = #imageLiteral(resourceName: "metrocard")
+        metroCardImage.image = #imageLiteral(resourceName: "metrocard")
     }
+    
 }
