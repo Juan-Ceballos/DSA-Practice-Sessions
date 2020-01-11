@@ -13,6 +13,7 @@
 		3E9CDD6423C934DA00D7A331 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E9CDD6223C934DA00D7A331 /* Main.storyboard */; };
 		3E9CDD6623C934DE00D7A331 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3E9CDD6523C934DE00D7A331 /* Assets.xcassets */; };
 		3E9CDD6923C934DE00D7A331 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E9CDD6723C934DE00D7A331 /* LaunchScreen.storyboard */; };
+		3E9CDD7123C9789D00D7A331 /* CardImageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E9CDD7023C9789D00D7A331 /* CardImageCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		3E9CDD6523C934DE00D7A331 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3E9CDD6823C934DE00D7A331 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3E9CDD6A23C934DE00D7A331 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3E9CDD7023C9789D00D7A331 /* CardImageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardImageCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				3E9CDD5C23C934DA00D7A331 /* AppDelegate.swift */,
 				3E9CDD5E23C934DA00D7A331 /* SceneDelegate.swift */,
 				3E9CDD6023C934DA00D7A331 /* ViewController.swift */,
+				3E9CDD7023C9789D00D7A331 /* CardImageCell.swift */,
 				3E9CDD6223C934DA00D7A331 /* Main.storyboard */,
 				3E9CDD6523C934DE00D7A331 /* Assets.xcassets */,
 				3E9CDD6723C934DE00D7A331 /* LaunchScreen.storyboard */,
@@ -141,6 +144,7 @@
 				3E9CDD6123C934DA00D7A331 /* ViewController.swift in Sources */,
 				3E9CDD5D23C934DA00D7A331 /* AppDelegate.swift in Sources */,
 				3E9CDD5F23C934DA00D7A331 /* SceneDelegate.swift in Sources */,
+				3E9CDD7123C9789D00D7A331 /* CardImageCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
