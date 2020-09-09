@@ -31,7 +31,6 @@ class CardViewController: UIViewController {
                 self.collectionView.frame.origin.y -= 420
             }, completion: nil)
         }
-        
     }
     
     @IBAction func testButtonPressed(_ sender: UIButton) {
@@ -47,7 +46,7 @@ class CardViewController: UIViewController {
 
 extension CardViewController: UICollectionViewDataSource    {
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        return 2
+        return 10
     }
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
